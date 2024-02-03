@@ -42,6 +42,7 @@ function LoginForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     if (formData?.email && formData?.password) {
       login({ data: { ...formData } });
     }

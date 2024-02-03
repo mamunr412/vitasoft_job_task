@@ -66,7 +66,10 @@ function UserNavbar() {
           <ul className="menu menu-horizontal rounded-box flex items-center">
             <li className="bg-green-500 rounded-lg">
               {loggedInUser && email ? (
-                <p className="cursor-pointer" onClick={() => handleLogout()}>
+                <p
+                  className="cursor-pointer text-white"
+                  onClick={() => handleLogout()}
+                >
                   Logout
                 </p>
               ) : (
@@ -74,28 +77,6 @@ function UserNavbar() {
                   Login
                 </Link>
               )}
-            </li>
-            <li>
-              <img
-                className="cursor-pointer"
-                src={notificationBell}
-                alt="notificatin_bell"
-              />
-            </li>
-            <li>
-              <div className="dropdown dropdown-end">
-                <div
-                  tabIndex={0}
-                  role="button"
-                  className="btn btn-ghost btn-circle avatar"
-                >
-                  <img
-                    className="shrink-0 h-10 w-10 rounded-full cursor-pointer"
-                    src={avatar || (email && gravatarUrl(email, { size: 80 }))}
-                    alt=""
-                  />
-                </div>
-              </div>
             </li>
           </ul>
         </div>

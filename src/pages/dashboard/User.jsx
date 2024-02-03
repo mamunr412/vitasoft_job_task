@@ -45,7 +45,7 @@ export default function User() {
         <div className="flex items-center justify-between ptSerif font-semibold">
           <h2 className="tableTitle">Users List</h2>
           <p
-            className="flex items-center space-x-1 mr-4 bg-sky-300 rounded-lg p-3 cursor-pointer"
+            className="flex items-center space-x-1 mr-4 bg-sky-300 rounded-lg p-2 cursor-pointer"
             onClick={() => handleAdd()}
           >
             <FaUserPlus /> <span>Add User</span>
