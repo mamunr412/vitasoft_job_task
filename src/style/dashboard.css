@@ -1,0 +1,42 @@
+.menuText {
+    color: #A7AFBC;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menuHolder:hover {
+    border-radius: 12px;
+    background: #F0F5FA;
+}
+
+.activeMenu {
+    border-radius: 12px;
+    background: #F0F5FA;
+}
+
+.paginationBtn {
+    display: flex;
+    /* width: 32px;
+    height: 32px;
+    padding: 10px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+}
+
+.tableTitle {
+    color: #323B4B;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 40px 0;
+}

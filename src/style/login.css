@@ -1,0 +1,182 @@
+.loginTextHolder {
+    margin-bottom: 30px;
+}
+
+.signInText {
+    color: #323B4B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+
+.welcomeText {
+    color: #8A94A6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.or {
+    color: #B0B7C3;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.inputBox {
+    width: 100%;
+    height: 58px;
+    border-radius: 16px;
+    border: 1px solid #dbd9d9;
+    background: #FFF;
+    padding-left: 14px;
+    outline-color: rgb(215, 213, 211);
+}
+
+.inputBox::placeholder {
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-left: 36px;
+}
+
+.placeHolderIcon {
+    width: 22px;
+    height: 22px;
+    color: #C5CBD3;
+}
+
+.label {
+    color: #B0B7C3;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.eye {
+    font-size: 20px;
+    color: #B0B7C3;
+}
+
+.checkBoxText {
+    color: #B0B7C3;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+}
+
+.signInBtn {
+    width: 100%;
+    height: 58px;
+    border-radius: 16px;
+    border: 1px solid #377DFF;
+    background: #377DFF;
+    margin-top: 35px;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.formFooter {
+    color: #B0B7C3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 35px;
+}
+
+.formFooterLink {
+    color: #377DFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.invalidEmailInput {
+    border-radius: 16px;
+    border: 1px solid #FF5630;
+    background: #FFF;
+    box-shadow: 0px 6px 8px 0px rgba(255, 86, 48, 0.10);
+}
+
+.invalidEmailInput:focus {
+    outline: none;
+}
+
+.invalidEmailError {
+    color: #FF5630;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+/* Default styles for the checkbox */
+.check {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    background: #EDEFF1;
+    border: 2px solid #ccc;
+}
+
+.check:checked {
+    border-color: #e2e4e5;
+    background-color: #007bff;
+}
+
+
+/* @media (min-width: 1040px) {
+    .inputBox {
+        min-width: 540px;
+    }
+
+    .signInBtn {
+        min-width: 540px;
+    }
+} */
+
+/* @media (min-width: 740px) {
+    .signInBtn {
+        min-width: 500px;
+    }
+
+    .inputBox {
+        min-width: 500px;
+    }
+} */
+
+ /* @media (min-width: 540px) {
+    .signInBtn {
+        min-width: 440px;
+    }
+
+    .inputBox {
+        min-width: 440px;
+    }
+}  */
